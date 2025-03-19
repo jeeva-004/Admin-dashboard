@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -45,9 +46,9 @@ html {
 body {
     width: 100%;
     height: auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: var(--color-background);
     color: var(--color-dark);
+    font-family: 'Poppins', sans-serif;
     user-select: none;
     overflow-x: hidden;
 }
@@ -386,11 +387,11 @@ main .analysis>div:hover {
 .data span {
     font-size: 1.3rem;
     color: var(--color-dark);
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .data h3 {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     color: var(--color-dark);
 }
 
@@ -441,9 +442,9 @@ svg {
 .process small {
     position: absolute;
     top: 40px;
-    left: 27px;
-    font-size: 1rem;
-    font-weight: bold;
+    left: 35px;
+    font-size: .8rem;
+    color: var(--color-dark-variant);
 }
 
 main .new-users{
@@ -502,6 +503,14 @@ main .new-users{
 
 .recent-orders:hover{
     box-shadow: none;
+}
+
+.new-users  span{
+    font-size: .8rem;
+}
+
+.new-users h3{
+    font-size: 1.1rem;
 }
 
 .recent-orders table{
@@ -793,6 +802,7 @@ tr td:last-child{
 
     .tools{
         width: 90% !important;
+        row-gap: 20px !important;
     }
 
     .notify{
@@ -801,6 +811,11 @@ tr td:last-child{
 
     .volume-tool, .edit-tool{
         width: 100%;
+    }
+
+    .add-reminder{
+        height: 60px;
+        margin-bottom: 20px;
     }
 
 }
