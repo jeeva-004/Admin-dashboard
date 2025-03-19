@@ -757,7 +757,7 @@ tr td:last-child{
     }
 
     .tools{
-        width: 90% !important;
+        width: 100% !important;
     }
 
     .notify{
@@ -846,6 +846,7 @@ tr td:last-child{
 
     .right{
         width: 90%;
+        height: auto;
         justify-self: center;
     }
     
