@@ -566,7 +566,7 @@ tr td:last-child{
     height: auto;
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 10px;
 }
 
 .tools .notify{
@@ -664,6 +664,31 @@ tr td:last-child{
     cursor: pointer;
 }
 
+.add-reminder{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: var(--color-primary);
+    border: 2px  dashed var(--color-primary);
+    border-radius: var(--border-radius-2);
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.add-reminder p{
+    align-self: center;
+}
+
+.add-reminder:hover{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    box-shadow: none;
+}
 
 @media screen and (max-width:768px) {
     .container {
